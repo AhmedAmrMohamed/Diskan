@@ -1,11 +1,17 @@
-from DSG import DSG
-from Node import Node
+# from DSG import DSG
+# from Node import Node
+# from os import sep
+from . import DSG
+from . import Node
 from os import sep
+DSG = DSG.DSG
+Node= Node.Node
 revsortfunc = lambda x : -x.getsize()
 class Printer:
-    def __init__(self):
+    def __init__(self,besorted, rootnode):
         self.expanded_nodes = {}
-        self.sorted = True
+        self.sorted   = besorted
+        self.rootnode = rootnode
     
     def convertTo(self,size):
         units = ['B','KB','MB','GB','TB']
@@ -19,8 +25,10 @@ class Printer:
                 break
         return ret
     
+    def print(self):
+        self.__print(self.rootnode,0)
 
-    def print(self,node, margin = 0):
+    def __print(self,node, margin ):
         CT  = self.convertTo
         mainpad = ' '*margin+'|--'
         subpad  = ' '*(margin+2)+'|--'
@@ -46,7 +54,7 @@ class Printer:
                         CT(subfile[1])
                         )
             for subnode in subnodes:
-                self.print(subnode, margin+2)
+                self.__print(subnode, margin+2)
 
     def expanded(self, node):
         return self.expanded_nodes.get(node.idx,False)

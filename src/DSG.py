@@ -1,5 +1,6 @@
 import os
-from Node import Node 
+from . import Node
+Node = Node.Node
 
 pathjoin = os.path.join
 listdir  = os.listdir

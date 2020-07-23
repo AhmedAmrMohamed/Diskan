@@ -1,0 +1,116 @@
+ 0 /home/ahmed/Documents/dev/asd 29.36MB
+   /home/ahmed/Documents/dev/asd/README.md 2.67KB
+   /home/ahmed/Documents/dev/asd/.gitignore 1.5KB
+   /home/ahmed/Documents/dev/asd/setup.py 710.0B
+   1 /home/ahmed/Documents/dev/asd/asd.egg-info 1.23KB
+     /home/ahmed/Documents/dev/asd/asd.egg-info/top_level.txt 4.0B
+     /home/ahmed/Documents/dev/asd/asd.egg-info/dependency_links.txt 1.0B
+     /home/ahmed/Documents/dev/asd/asd.egg-info/SOURCES.txt 813.0B
+     /home/ahmed/Documents/dev/asd/asd.egg-info/PKG-INFO 407.0B
+     /home/ahmed/Documents/dev/asd/asd.egg-info/entry_points.txt 38.0B
+   19 /home/ahmed/Documents/dev/asd/asd 36.50KB
+     /home/ahmed/Documents/dev/asd/asd/asd.py 862.0B
+     /home/ahmed/Documents/dev/asd/asd/constants.py 59.0B
+     /home/ahmed/Documents/dev/asd/asd/__init__.py 0.0B
+     27 /home/ahmed/Documents/dev/asd/asd/sds 5.61KB
+       /home/ahmed/Documents/dev/asd/asd/sds/command.py 557.0B
+       /home/ahmed/Documents/dev/asd/asd/sds/sds.py 1.63KB
+       /home/ahmed/Documents/dev/asd/asd/sds/__init__.py 0.0B
+       28 /home/ahmed/Documents/dev/asd/asd/sds/__pycache__ 3.43KB
+         /home/ahmed/Documents/dev/asd/asd/sds/__pycache__/sds.cpython-38.pyc 2.19KB
+         /home/ahmed/Documents/dev/asd/asd/sds/__pycache__/command.cpython-38.pyc 1.11KB
+         /home/ahmed/Documents/dev/asd/asd/sds/__pycache__/__init__.cpython-38.pyc 140.0B
+     22 /home/ahmed/Documents/dev/asd/asd/backup 2.10KB
+       /home/ahmed/Documents/dev/asd/asd/backup/reghandler.py 1013.0B
+       /home/ahmed/Documents/dev/asd/asd/backup/command.py 797.0B
+       /home/ahmed/Documents/dev/asd/asd/backup/mover.py 346.0B
+     23 /home/ahmed/Documents/dev/asd/asd/__pycache__ 1.31KB
+       /home/ahmed/Documents/dev/asd/asd/__pycache__/__init__.cpython-38.pyc 136.0B
+       /home/ahmed/Documents/dev/asd/asd/__pycache__/asd.cpython-38.pyc 1.18KB
+     30 /home/ahmed/Documents/dev/asd/asd/ctrlf 5.43KB
+       /home/ahmed/Documents/dev/asd/asd/ctrlf/ctrlf.py 1.0KB
+       /home/ahmed/Documents/dev/asd/asd/ctrlf/command.py 821.0B
+       /home/ahmed/Documents/dev/asd/asd/ctrlf/__init__.py 0.0B
+       /home/ahmed/Documents/dev/asd/asd/ctrlf/com.py 1.51KB
+       31 /home/ahmed/Documents/dev/asd/asd/ctrlf/__pycache__ 2.11KB
+         /home/ahmed/Documents/dev/asd/asd/ctrlf/__pycache__/ctrlf.cpython-38.pyc 1.15KB
+         /home/ahmed/Documents/dev/asd/asd/ctrlf/__pycache__/command.cpython-38.pyc 838.0B
+         /home/ahmed/Documents/dev/asd/asd/ctrlf/__pycache__/__init__.cpython-38.pyc 142.0B
+     24 /home/ahmed/Documents/dev/asd/asd/cfrate 6.48KB
+       /home/ahmed/Documents/dev/asd/asd/cfrate/filehandles.py 2.24KB
+       /home/ahmed/Documents/dev/asd/asd/cfrate/browserhandles.py 1.9KB
+       /home/ahmed/Documents/dev/asd/asd/cfrate/command.py 227.0B
+       /home/ahmed/Documents/dev/asd/asd/cfrate/__init__.py 1.0B
+       /home/ahmed/Documents/dev/asd/asd/cfrate/Cfrate.py 2.91KB
+     29 /home/ahmed/Documents/dev/asd/asd/opterm 126.0B
+       /home/ahmed/Documents/dev/asd/asd/opterm/command.py 126.0B
+       /home/ahmed/Documents/dev/asd/asd/opterm/__init__.py 0.0B
+     26 /home/ahmed/Documents/dev/asd/asd/randpass 2.17KB
+       /home/ahmed/Documents/dev/asd/asd/randpass/log 12.0B
+       /home/ahmed/Documents/dev/asd/asd/randpass/command.py 641.0B
+       /home/ahmed/Documents/dev/asd/asd/randpass/randpass.py 1.52KB
+       /home/ahmed/Documents/dev/asd/asd/randpass/__init__.py 0.0B
+       /home/ahmed/Documents/dev/asd/asd/randpass/epxire.bat 16.0B
+     25 /home/ahmed/Documents/dev/asd/asd/ctf 4.18KB
+       /home/ahmed/Documents/dev/asd/asd/ctf/docdis.py 1.89KB
+       /home/ahmed/Documents/dev/asd/asd/ctf/engine.py 1.68KB
+       /home/ahmed/Documents/dev/asd/asd/ctf/command.py 624.0B
+       /home/ahmed/Documents/dev/asd/asd/ctf/__init__.py 0.0B
+     20 /home/ahmed/Documents/dev/asd/asd/c2p 3.96KB
+       /home/ahmed/Documents/dev/asd/asd/c2p/comic2pdf_log.txt 0.0B
+       /home/ahmed/Documents/dev/asd/asd/c2p/command.py 56.0B
+       /home/ahmed/Documents/dev/asd/asd/c2p/Main.py 3.90KB
+       /home/ahmed/Documents/dev/asd/asd/c2p/__init__.py 1.0B
+     21 /home/ahmed/Documents/dev/asd/asd/org 3.32KB
+       /home/ahmed/Documents/dev/asd/asd/org/org.py 1.35KB
+       /home/ahmed/Documents/dev/asd/asd/org/command.py 828.0B
+       /home/ahmed/Documents/dev/asd/asd/org/__init__.py 0.0B
+       /home/ahmed/Documents/dev/asd/asd/org/com.py 1.16KB
+     32 /home/ahmed/Documents/dev/asd/asd/expo 898.0B
+       /home/ahmed/Documents/dev/asd/asd/expo/command.py 288.0B
+       /home/ahmed/Documents/dev/asd/asd/expo/__init__.py 1.0B
+       33 /home/ahmed/Documents/dev/asd/asd/expo/__pycache__ 609.0B
+         /home/ahmed/Documents/dev/asd/asd/expo/__pycache__/command.cpython-38.pyc 468.0B
+         /home/ahmed/Documents/dev/asd/asd/expo/__pycache__/__init__.cpython-38.pyc 141.0B
+   2 /home/ahmed/Documents/dev/asd/.git 29.32MB
+     /home/ahmed/Documents/dev/asd/.git/HEAD 23.0B
+     /home/ahmed/Documents/dev/asd/.git/description 73.0B
+     /home/ahmed/Documents/dev/asd/.git/index 3.87KB
+     /home/ahmed/Documents/dev/asd/.git/config 259.0B
+     /home/ahmed/Documents/dev/asd/.git/packed-refs 181.0B
+     3 /home/ahmed/Documents/dev/asd/.git/info 240.0B
+       /home/ahmed/Documents/dev/asd/.git/info/exclude 240.0B
+     14 /home/ahmed/Documents/dev/asd/.git/branches 0.0B
+     15 /home/ahmed/Documents/dev/asd/.git/hooks 18.56KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/prepare-commit-msg.sample 1.45KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/commit-msg.sample 896.0B
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-commit.sample 1.59KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/fsmonitor-watchman.sample 3.0KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/update.sample 3.52KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/applypatch-msg.sample 478.0B
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-push.sample 1.31KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/post-update.sample 189.0B
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-merge-commit.sample 416.0B
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-applypatch.sample 424.0B
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-rebase.sample 4.78KB
+       /home/ahmed/Documents/dev/asd/.git/hooks/pre-receive.sample 544.0B
+     9 /home/ahmed/Documents/dev/asd/.git/refs 73.0B
+       11 /home/ahmed/Documents/dev/asd/.git/refs/heads 41.0B
+         /home/ahmed/Documents/dev/asd/.git/refs/heads/master 41.0B
+       12 /home/ahmed/Documents/dev/asd/.git/refs/remotes 32.0B
+         13 /home/ahmed/Documents/dev/asd/.git/refs/remotes/origin 32.0B
+           /home/ahmed/Documents/dev/asd/.git/refs/remotes/origin/HEAD 32.0B
+       10 /home/ahmed/Documents/dev/asd/.git/refs/tags 0.0B
+     4 /home/ahmed/Documents/dev/asd/.git/logs 555.0B
+       /home/ahmed/Documents/dev/asd/.git/logs/HEAD 185.0B
+       5 /home/ahmed/Documents/dev/asd/.git/logs/refs 370.0B
+         6 /home/ahmed/Documents/dev/asd/.git/logs/refs/heads 185.0B
+           /home/ahmed/Documents/dev/asd/.git/logs/refs/heads/master 185.0B
+         7 /home/ahmed/Documents/dev/asd/.git/logs/refs/remotes 185.0B
+           8 /home/ahmed/Documents/dev/asd/.git/logs/refs/remotes/origin 185.0B
+             /home/ahmed/Documents/dev/asd/.git/logs/refs/remotes/origin/HEAD 185.0B
+     16 /home/ahmed/Documents/dev/asd/.git/objects 29.30MB
+       18 /home/ahmed/Documents/dev/asd/.git/objects/pack 29.30MB
+         /home/ahmed/Documents/dev/asd/.git/objects/pack/pack-34b48c7431ea60cae10c5bd462c915cccfb5a913.idx 15.15KB
+         /home/ahmed/Documents/dev/asd/.git/objects/pack/pack-34b48c7431ea60cae10c5bd462c915cccfb5a913.pack 29.28MB
+       17 /home/ahmed/Documents/dev/asd/.git/objects/info 0.0B
