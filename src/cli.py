@@ -30,7 +30,6 @@ def getnode(workingdir):
     t0 = time.time()
     try:
         dsg = DSG(workingdir)
-        print(dsg.rootnode.getsize())
     except PermissionError:
         print(MSG.permdenied)
         exit()
