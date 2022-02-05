@@ -26,8 +26,11 @@ class DSG:
             if isfile(subfile):
                 node.addfile(subfile)
             elif isdir(subfile):
-                subnode = self.dsg(subfile)
-                node.addsubdir(subnode)
+                try:
+                    subnode = self.dsg(subfile)
+                    node.addsubdir(subnode)
+                except PermissionError:
+                    continue
         return node
 
 

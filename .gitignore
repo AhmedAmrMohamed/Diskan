@@ -1,2 +1,10 @@
 test*
 *.pyc
+/diskan.egg-info/top_level.txt
+/diskan.egg-info/SOURCES.txt
+/diskan.egg-info/PKG-INFO
+/diskan.egg-info/entry_points.txt
+/diskan.egg-info/dependency_links.txt
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/Diskan/v16/.suo
