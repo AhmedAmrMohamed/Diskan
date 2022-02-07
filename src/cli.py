@@ -5,10 +5,9 @@ from . import MSG
 import os
 import time
 
-import matplotlib
-# matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt
-import numpy as np
+#import matplotlib
+#import matplotlib.pyplot as plt
+#import numpy as np
 
 DSG = DSG.DSG
 Node= Node.Node
@@ -68,7 +67,7 @@ def main():
                     dirnum = int(dirnum)
                     printer.setexpand(dirnum,expval)
                     printer.print()
-                    test_plot(rootnode)
+                    #test_plot(rootnode)
                 else:
                     raise ValueError
             except ValueError:
