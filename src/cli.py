@@ -5,6 +5,11 @@ from . import MSG
 import os
 import time
 
+import matplotlib
+# matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import numpy as np
+
 DSG = DSG.DSG
 Node= Node.Node
 Printer = Printer.Printer
@@ -63,6 +68,7 @@ def main():
                     dirnum = int(dirnum)
                     printer.setexpand(dirnum,expval)
                     printer.print()
+                    test_plot(rootnode)
                 else:
                     raise ValueError
             except ValueError:
@@ -71,4 +77,11 @@ def main():
         exit()
     exit()
 
-    
+
+def test_plot(node):
+    print('plotting')
+    dirsize = node.getDirsPercentage()
+    y = np.array(dirsize)
+    plt.pie(y)
+    plt.show()
+

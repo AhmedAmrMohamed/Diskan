@@ -6,6 +6,7 @@ class Node:
         self.subfiles = []
         self.subnodes  = []
         self.size = 0
+        self.subfilesSize = 0
     
     def addfile(self,fileurl):
         assert fileurl.__class__ is str\
@@ -14,6 +15,7 @@ class Node:
         size = os.path.getsize(fileurl)
         self.subfiles.append((fileurl, size))
         self.size += size
+        self.subfilesSize += size
 
     def addsubdir(self,node):
         assert node.__class__ is Node\
@@ -27,6 +29,18 @@ class Node:
 
     def getsize(self):
         return self.size
+    
+    def getFilesPercentage(self):
+        ret = []
+        for fi in self.subfiles:
+            ret.append(fi[1]/ self.subfilesSize * 100)
+        return ret
+
+    def getDirsPercentage(self):
+        ret = [self.subfilesSize/self.size * 100]
+        for subnode in self.subnodes:
+            ret.append(subnode.size/self.size * 100)
+        return ret
 
 
 
