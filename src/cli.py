@@ -2,6 +2,7 @@ from . import DSG
 from . import Node
 from . import Printer
 from . import MSG
+from . import Plotter
 import os
 import time
 
@@ -12,6 +13,7 @@ import time
 DSG = DSG.DSG
 Node= Node.Node
 Printer = Printer.Printer
+Plotter = Plotter.Plotter()
 def verify(path):
     x = os.path
     return not x.islink(path) and x.isdir(path)
@@ -67,7 +69,8 @@ def main():
                     dirnum = int(dirnum)
                     printer.setexpand(dirnum,expval)
                     printer.print()
-                    #test_plot(rootnode)
+                elif expval in 'p':
+                    Plotter.plot(rootnode)
                 else:
                     raise ValueError
             except ValueError:
@@ -77,10 +80,4 @@ def main():
     exit()
 
 
-def test_plot(node):
-    print('plotting')
-    dirsize = node.getDirsPercentage()
-    y = np.array(dirsize)
-    plt.pie(y)
-    plt.show()
 
